@@ -1,6 +1,5 @@
 <?php
 
-// Thomas is gay
-// nee tygo is gay
+// THOMAS IS ZO FUCKING GAY! WHAHAHAHAHAHAHA!
 
 ?>
