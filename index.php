@@ -1,5 +1,0 @@
-<?php
-
-// THOMAS IS ZO FUCKING GAY! WHAHAHAHAHAHAHA!
-
-?>
