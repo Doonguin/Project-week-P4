@@ -9,6 +9,17 @@
   <title>Vrijwilligershuis donaties</title>
 </head>
 <body>
-
+  <div class="header"> </div>
+  <div class="container main">
+    <div class="info-1"> </div>
+    <img id=img-1 src="" ></img>
+    <div onclick="" class="button"></div>
+    <div class="info-2"> </div>
+    <img id=img-1 src="" ></img>
+  </div>
+  <div class="footer">
+    <div class="socials"></div>
+    <div class="copyright"></div>
+  </div>
 </body>
 </html>
