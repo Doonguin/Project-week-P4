@@ -16,7 +16,8 @@ include './assets/database/database.php';
 </head>
 <body>
   <div class="header"> </div>
-  <div class="container main">
+    <img src="./assets/img/logo_vrijvilligershuis_NIEWEGEIN.png">
+  <div class="main">
     <div class="info-1"> </div>
     <img id=img-1 src="" ></img>
     <div onclick="" class="button"></div>
