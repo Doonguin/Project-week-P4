@@ -1,3 +1,9 @@
+<?php
+
+include './assets/database/database.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
