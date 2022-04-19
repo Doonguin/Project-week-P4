@@ -12,18 +12,22 @@
 </head>
 <body>
   <div class="container">
-    <div class="nav">
-
-    </div>
-    <div class="header">
+    <header>
       <img src="./assets/img/logo.png">
-    </div>
-    <div class="main">
+    </header>
+    <nav>
+      <ul>
+        <li href="#">Over ons</li>
+        <li href="#">Doneren</li>
+        <li class="rightAlignment" href="#">Contact</li>
+      </ul>
+    </nav>
+    <main>
 
-    </div>
-    <div class="footer">
+    </main>
+    <footer>
 
-    </div>
+    </footer>
   </div>
 </body>
 </html>
