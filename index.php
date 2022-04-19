@@ -1,0 +1,5 @@
+<?php
+
+// Thomas is gay
+
+?>
