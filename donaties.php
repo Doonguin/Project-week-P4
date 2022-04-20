@@ -31,15 +31,15 @@ include "./assets/database/database.php";
         <div id="formDonations">
             <h2 style="color: white;">Doneren</h2>
             <form>
-                <div class="form-floating mb-3" style="width: 40%;">
+                <div class="form-floating mb-3" style="width: 45%;">
                     <input type="text" class="form-control" id="inputNaam" placeholder="Naam">
                     <label for="inputNaam">Naam</label>
                 </div>
-                <div class="form-floating mb-3" style="width: 40%; float: left;">
+                <div class="form-floating mb-3" style="width: 45%; float: left;">
                     <input type="email" class="form-control" id="inputMail" placeholder="email">
                     <label for="inputMail">Email</label>
                 </div>
-                <div class="form-floating mb-3" style="width: 40%; float: left; margin-left: 10px;">
+                <div class="form-floating mb-3" style="width: 45%; float: left; margin-left: 10px;">
                     <input type="tel" class="form-control" id="inputTel" placeholder="telefoon">
                     <label for="inputTel">Telefoon</label>
                 </div>
@@ -55,6 +55,7 @@ include "./assets/database/database.php";
                     <textarea class="form-control" placeholder="Beschrijving" id="floatingTextarea2" style="height: 100px; resize: none;"></textarea>
                     <label for="floatingTextarea2">Beschrijving van de donatie</label>
                 </div>
+                <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Doneer nu</button>
             </form>
         </div>
     </main>
