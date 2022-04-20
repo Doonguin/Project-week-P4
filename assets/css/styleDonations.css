@@ -34,6 +34,7 @@ header img {
 nav {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
   top: 0;
   height: 70px;
   background-color: rgb(98, 0, 155);
@@ -80,7 +81,8 @@ main {
 
 #formDonations {
   background-color: darkcyan;
-  width: 50px;
-  height: 50px;
-  box-shadow: 5px 5px 0px black;
+  width: 50%;
+  height: 300px;
+  box-shadow: 10px 10px 0px black;
+  margin: 0 auto;
 }

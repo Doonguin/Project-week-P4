@@ -29,7 +29,7 @@ include "./assets/database/database.php";
     </nav>
     <main>
         <div id="formDonations">
-
+            
         </div>
     </main>
     <footer>
