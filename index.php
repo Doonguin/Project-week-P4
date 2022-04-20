@@ -32,7 +32,54 @@
     </div>
     </main>
     <footer>
-
+    <div class="footertext">
+                <h3>Credits</h3><br>
+                © 10/01/2022<br>
+                Furry Tygo<br>
+                © 10/01/2022<br>
+                Rowan Lodewijks
+            </div>
+            <div class="footertext">
+                <h3>Website</h3><br>
+                Managed Website<br>
+                Manage Reputaition<br>
+                Power Tools<br>
+                Marketing Service
+            </div>
+            <div class="footertext">
+                <h3>Features</h3><br>
+                Managed Website<br>
+                Manage Reputaition<br>
+                Power Tools<br>
+                Marketing Service
+            </div>
+            <div class="footertext">
+                <h3>Quick Links</h3><br>
+                Managed Website<br>
+                Manage Reputaition<br>
+                Power Tools<br>
+                Marketing Service
+            </div>
+        </footer>
+        <div class="footerend">
+            <div class="nav_links3">
+                WWWWWWWWW
+            </div>
+            <div class="nav_rechts">
+                <a class="nav_rechts2" href="#">©
+                    2022 Thomas van Steen</a>
+            </div>
+            <div class="footerendtext">
+                <ul class="nav_links2">
+                    <li><a href="#">Privacyverklaring</a></li>
+                    <li><a href="#">Cookieverklaring</a></li>
+                    <li><a href="#">Cookie instellingen</a></li>
+                </ul>
+            </div>
+            <div class="nav_rechts">
+                <a class="nav_rechts2" href="#">Ontwerp & realisatie ________</a>
+            </div>
+        </div>
     </footer>
   </div>
 </body>

@@ -72,6 +72,12 @@ nav ul li:hover {
   background-color: rgb(118, 0, 187);
   cursor: pointer;
 }
+#formDonations {
+  background-color: darkcyan;
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px 0px black;
+}
 
 main {
   width: 80%;
@@ -117,14 +123,106 @@ main {
   height: 90%;
   width: 100%;
 }
-#formDonations {
-  background-color: darkcyan;
-  width: 50px;
-  height: 50px;
-  box-shadow: 5px 5px 0px black;
+footer {
+  width: 100vw;
+  height: 14%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 3%;
+  float: right;
+  display: flex;
+  text-align: center;
+  padding-bottom: 4%;
 }
-
-@media only screen and (max-width: 560px) {
+.footertext {
+  padding: 1%;
+  margin-left: 10%;
+  text-align: center;
+  color: grey;
+  margin-top: 1%;
+}
+h3 {
+  color: #ffffff;
+}
+.footerend {
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+.nav_links2 {
+  list-style: none;
+  font-size: 13px;
+  text-decoration: none;
+}
+.nav_links2 li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 13px;
+}
+.nav_links2 li a {
+  transition: all 0.3s ease 0s;
+  font-size: 13px;
+  text-decoration: none;
+  color: #2e2e2e;
+}
+.nav_links2 li a:hover {
+  cursor: pointer;
+}
+.nav_rechts {
+  font-size: 13px;
+}
+.nav_rechts:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.nav_rechts2 {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  text-decoration: none;
+  color: #2e2e2e;
+}
+@media only screen and (max-width: 960px) {
+  footer {
+    font-size: 16px;
+    padding-bottom: 4%;
+  }
+  .footertext {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .nav_rechts a {
+    font-size: 14px;
+  }
+  .footerendtext li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 786px) {
+  footer {
+    font-size: 13px;
+    padding-bottom: 4%;
+  }
+  .footertext {
+      font-size: 13px;
+  }
+  h3 {
+      font-size: 13px;
+  }
+  .nav_rechts a {
+      font-size: 11px;
+  }
+  .footerendtext li a {
+      font-size: 11px;
+  }
+}
+@media only screen and (max-width: 550px) {
   .top {
     display: contents;
   }
@@ -153,8 +251,45 @@ main {
     margin-left: 7%;
     margin-top: 4%;
   }
-
-/* @media screen and (max-width: 560px) { */
+  nav ul {
+    display: none;
+  }
+  footer {
+    font-size: 10px;
+    padding-bottom: 4%;
+}
+.footertext {
+    font-size: 10px;
+}
+h3 {
+    font-size: 13px;
+}
+.nav_rechts a {
+    font-size: 11px;
+}
+.footerendtext li a {
+    font-size: 11px;
+}
+}
+@media only screen and (max-width: 380px) {
+  footer {
+    font-size: 7px;
+    padding-bottom: 4%;
+  }
+  .footertext {
+      font-size: 7px;
+  }
+  h3 {
+      font-size: 9px;
+  }
+  .nav_rechts a {
+      font-size: 9px;
+  }
+  .footerendtext li a {
+      font-size: 9px;
+  }
+}
+@media screen and (max-width: 560px) {
   nav {
     width: 130px;
     height: 100%;
