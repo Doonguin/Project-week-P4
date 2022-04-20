@@ -15,8 +15,12 @@
     </header>
     <nav>
       <ul>
+<<<<<<< HEAD
         <a href="#"><li>Home</li></a>
         <a href="#"><li>Over ons</li></a>
+=======
+        <a href="index.php"><li>Over ons</li></a>
+>>>>>>> 402cb93bf170f86c026a71e5ee5d576a3c3d26bb
         <a href="donaties.php"><li>Doneren</li></a>
         <a href="#"><li class="rightAlignment">Contact</li></a>
       </ul>
