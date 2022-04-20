@@ -110,3 +110,26 @@ main {
   height: 50px;
   box-shadow: 5px 5px 0px black;
 }
+
+@media screen and (max-width: 560px) {
+  nav {
+    width: 130px;
+    height: 100%;
+    float: left;
+  }
+
+  nav ul li {
+    border-bottom: 3px solid rgb(70, 0, 110);
+  }
+
+  #formDonations {
+    margin-top: 10px;
+    margin-left: 40%;
+  }
+
+  .rightAlignment {
+    border-left: none;
+    border-right: 5px solid rgb(70, 0, 110);
+    border-bottom: 5px solid rgb(70, 0, 110);
+  }
+}
