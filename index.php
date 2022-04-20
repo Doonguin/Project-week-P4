@@ -17,7 +17,7 @@
     </header>
     <nav>
       <ul>
-        <a href="#"><li>Over ons</li></a>
+        <a href="index.php"><li>Over ons</li></a>
         <a href="donaties.php"><li>Doneren</li></a>
         <a href="#"><li class="rightAlignment">Contact</li></a>
       </ul>
