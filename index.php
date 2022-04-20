@@ -22,10 +22,14 @@
       </ul>
     </nav>
     <main>
-      <div class="text"><h1></h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sunt libero voluptate ad, placeat officiis nam magnam fugit ducimus nobis aliquid laudantium incidunt illo, necessitatibus, excepturi assumenda molestiae provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque repellat vel vero praesentium quos quas harum quidem ratione nemo natus quae delectus blanditiis, maxime odio omnis, dicta nisi hic recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium doloribus tempore voluptas molestiae, sunt blanditiis quaerat. Praesentium adipisci fugit cupiditate modi iure eaque qui reiciendis eius, cumque officiis quis magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, aliquid nesciunt. Distinctio impedit corrupti voluptatum necessitatibus fugit unde nam asperiores debitis hic, eligendi optio quasi aspernatur soluta? Consequuntur, repellat reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius in nam dignissimos iusto libero assumenda veniam voluptatem sit ut expedita dicta alias unde repudiandae sunt, incidunt non eligendi vero corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi repudiandae qui veniam tempora officia repellendus harum facilis, sint mollitia unde inventore, fuga repellat placeat illum reiciendis voluptate adipisci velit.</div>
-      <div class="post-img"><img src="./assets/img/flag.jpg" class="main-img img-fluid" alt=""></div>
-      <div class="post-img"><img src="./assets/img/flag.jpg" class="main-img img-fluid" alt=""></div>
-      <div class="text"><h1></h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sunt libero voluptate ad, placeat officiis nam magnam fugit ducimus nobis aliquid laudantium incidunt illo, necessitatibus, excepturi assumenda molestiae provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque repellat vel vero praesentium quos quas harum quidem ratione nemo natus quae delectus blanditiis, maxime odio omnis, dicta nisi hic recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium doloribus tempore voluptas molestiae, sunt blanditiis quaerat. Praesentium adipisci fugit cupiditate modi iure eaque qui reiciendis eius, cumque officiis quis magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, aliquid nesciunt. Distinctio impedit corrupti voluptatum necessitatibus fugit unde nam asperiores debitis hic, eligendi optio quasi aspernatur soluta? Consequuntur, repellat reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius in nam dignissimos iusto libero assumenda veniam voluptatem sit ut expedita dicta alias unde repudiandae sunt, incidunt non eligendi vero corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi repudiandae qui veniam tempora officia repellendus harum facilis, sint mollitia unde inventore, fuga repellat placeat illum reiciendis voluptate adipisci velit.</div>
+    <div class="top">
+      <div class="text1">text1</div>
+      <div class="img1"><img src="./assets/img/flag.jpg" class="img"></div>
+    </div>
+    <div class="bottom">
+      <div class="img2"><img src="./assets/img/flag.jpg" class="img"></div>
+      <div class="text2">text2</div>
+    </div>
     </main>
     <footer>
 
