@@ -32,15 +32,15 @@ include "./assets/database/database.php";
             <h2 style="color: white;">Doneren</h2>
             <form>
                 <div class="form-floating mb-3" style="width: 45%;">
-                    <input type="text" class="form-control" id="inputNaam" placeholder="Naam">
+                    <input type="text" class="form-control" id="inputNaam" placeholder="Naam" required>
                     <label for="inputNaam">Naam</label>
                 </div>
                 <div class="form-floating mb-3" style="width: 45%; float: left;">
-                    <input type="email" class="form-control" id="inputMail" placeholder="email">
+                    <input type="email" class="form-control" id="inputMail" placeholder="email" required>
                     <label for="inputMail">Email</label>
                 </div>
                 <div class="form-floating mb-3" style="width: 45%; float: left; margin-left: 10px;">
-                    <input type="tel" class="form-control" id="inputTel" placeholder="telefoon">
+                    <input type="tel" class="form-control" id="inputTel" placeholder="telefoon" required>
                     <label for="inputTel">Telefoon</label>
                 </div>
                 <div class="input-group mb-3">
