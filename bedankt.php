@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" id="html">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,8 @@
 <body id="body">
     <div id="main">
         <h2>Bedankt voor je donatie!</h2>
+        We nemen zo spoedig mogelijk contact met u op.<br><br>
+        <button href="index.html">Terug naar de homepagina.</button>
     </div>
 </body>
 </html>
