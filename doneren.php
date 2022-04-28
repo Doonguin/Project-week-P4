@@ -2994,7 +2994,7 @@ include './assets/database/database.php';
 								href="https://vrijwilligershuis-nieuwegein.nl/contact/">Contact</a></li>
 						<li id="menu-item-2272"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2272"><a
-								href="doneren.html">Doneren</a></li>
+								href="#">Doneren</a></li>
 					</ul>
 				</div>
 			</li>
@@ -3200,18 +3200,19 @@ include './assets/database/database.php';
 			</div>
 			<div class="column large-10 large-offset-1 medium-10 medium-offset-1 small-offset-0 small-12">
 				<div class="box" style="margin-bottom: 50px;">
-					<form method="post">
+					<form method="POST">
 						<div class="form-floating mb-3" style="width: 45%;">
 							<label for="inputNaam">Naam:</label>
-							<input required name="naam" type="text" class="form-control" id="inputNaam" placeholder="Naam">
+							<input required name="naam" type="text" class="form-control" id="inputNaam" placeholder="Bijv. John Doe">
 						</div>
 						<div class="form-floating mb-3" style="width: 45%; float: left;">
 							<label for="inputMail">Email:</label>
-							<input required name="mail" type="email" class="form-control" id="inputMail" placeholder="email">
+							<input required name="mail" type="email" class="form-control" id="inputMail" placeholder="Bijv. example@example.com">
 						</div>
 						<div class="form-floating mb-3" style="width: 45%; float: left; margin-left: 10px;">
 							<label for="inputTel">Telefoon:</label>
-							<input required name="tel" type="tel" class="form-control" id="inputTel" placeholder="telefoon">
+							<div style="float: left; background-color: rgb(220, 220, 220); width: 50px; height: 39px; text-align: center; border-radius: 5px 0px 0px 5px; padding-top: 8px;">+31</div>
+							<input required name="tel" type="tel" class="form-control" id="inputTel" placeholder="Bijv. 12345678" style="float: left; width: 300px;" pattern="[0-9]{8}">
 						</div>
 						<div class="input-group mb-3">
 							<select name="cat" required>
@@ -3557,17 +3558,17 @@ include './assets/database/database.php';
 <?php
 
 $naam = $_POST['naam'];
-$tel = $_POST['tel'];
+$tel = "06 " + $_POST['tel'];
 $mail = $_POST['mail'];
 $cat = $_POST['cat'];
 $desc = $_POST['desc'];
 
-
 if ($naam && $tel && $mail && $cat && $desc != "" || NULL) {
 	$sql = "INSERT INTO `donaties` (`naam`, `email`, `telefoon`, `categorie`, `beschrijving`) VALUES ('$naam', '$mail', '$tel', '$cat', '$desc')";
 	$conn->query($sql);
-
-	header("Location: bedankt.php");
+	echo '<script>window.location.href = "bedankt.php"</script>';
+} else {
+	return FALSE;
 }
 
 $conn-close();
