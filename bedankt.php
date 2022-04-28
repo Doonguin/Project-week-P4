@@ -12,7 +12,7 @@
     <div id="main">
         <h2>Bedankt voor je donatie!</h2>
         We nemen zo spoedig mogelijk contact met u op.<br><br>
-        <button href="index.html">Terug naar de homepagina.</button>
+        <a href="index.html" style="text-decoration: none; color: white;"><button>Terug naar de homepagina.</button></a>
     </div>
 </body>
 </html>
